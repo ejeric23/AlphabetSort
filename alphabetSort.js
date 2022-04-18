@@ -1,7 +1,6 @@
 function sortFunc(string) {
     // Split each character in an array
     return string.split('')
-  
       // Sort the array in alphabetical order
       .sort(
         // Local Compare will take care of the capital letters in the sort
