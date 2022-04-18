@@ -20,5 +20,4 @@ function sortFunc(string) {
   
   console.log(sortFunc('3 Blind Mice'));
   
-  console.log(sortFunc("hey they're partner"));
-  
+  console.log(sortFunc("hey there's Eric"));
