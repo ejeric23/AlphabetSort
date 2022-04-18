@@ -4,10 +4,8 @@ function sortFunc(string) {
   
       // Sort the array in alphabetical order
       .sort(
-        (a, b) =>
-          // Local Compare will take care of the capital letters in the sort
-          a.localeCompare(b)
-  
+        // Local Compare will take care of the capital letters in the sort
+        (a, b) => a.localeCompare(b)
       )
       // Will join the array back in into string form
       .join('')
