@@ -9,7 +9,7 @@ function sortFunc(string) {
       // Will join the array back in into string form
       .join('')
       // gets rid of special characters in a string
-      .replace(/[^A-Za-z0-9]/g, '')
+      .replace(/[^A-Za-z]/g, '')
       // gets rid of numbers in a string
       .replace(/[0-9]/g, '')
       // gets rid of whitespace in a string
